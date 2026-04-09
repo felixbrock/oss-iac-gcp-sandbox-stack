@@ -19,5 +19,5 @@ variable "bucket_prefix" {
 variable "enable_bucket" {
   description = "Whether to create the GCS sandbox bucket. Flip to false in Scene 7 of the demo to trigger a destructive plan that the platform-space deny policy should block."
   type        = bool
-  default     = true
+  default     = false
 }
