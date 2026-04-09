@@ -1,3 +1,4 @@
 project_id    = "oss-iac"
 region        = "europe-west3"
 bucket_prefix = "oss-iac-sandbox"
+enable_bucket = true
